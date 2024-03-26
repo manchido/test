@@ -4,10 +4,10 @@ const webpush = require("web-push");
 const mongoose = require('mongoose')
 
 
-const publicVapidKey="";
-const privateVapidKey="";
+const publicVapidKey="BOv2R_RAcD_64GZt1fX2tVCjp4ZAkCxyThDrOUNjQ8gnVtmhoEdZRp20JLxhBD6HuGJCjpj3ux2t7BpPr3h-kAw";
+const privateVapidKey="tFoRw2D-X7xTMyeWh6VSLtWjdaTlmISYmQsdk9L8ijI";
 
-webpush.setVapidDetails("",publicVapidKey,privateVapidKey);
+webpush.setVapidDetails("mailto:cmabengowe@mun.ca",publicVapidKey,privateVapidKey);
 
 
 const createNotification = async (req, res) => {
