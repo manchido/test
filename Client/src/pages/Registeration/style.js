@@ -50,3 +50,4 @@ export const PageContainer = styled.div`
   height: 100vh;
   min-height: 870px;
 `
+//styled

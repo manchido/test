@@ -12,3 +12,4 @@ S.Footer = Styled(Footer)`
 `
 
 export default S
+//styled

@@ -2,6 +2,7 @@ import React from 'react'
 
 import { Button, Card, Dropdown, Menu } from 'antd'
 
+// Course card
 const CourseImage = ({ image, backgroundColor }) => {
   if (!image)
     return (

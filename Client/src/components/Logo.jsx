@@ -58,7 +58,7 @@ const Logo = ({ collapsed }) => {
             className="logo2-cls-3"
             transform="translate(70.82 122.47) scale(1.24 1)"
           >
-            Edu-Hub
+            LMS
           </text>
         </svg>
       </LogoContainer2>
@@ -105,7 +105,7 @@ const Logo = ({ collapsed }) => {
           transform="translate(-236.15 -282.24)"
         />
         <text className="logo1-cls-4" transform="translate(377.2 139.42)">
-          Edu-Hub
+          LMS
         </text>
         <line
           className="logo1-cls-5"

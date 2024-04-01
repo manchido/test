@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { NavLink } from 'react-router-dom'
 
 import { logout } from '../../reducers/authReducer'
-
+//pub icon
 const ProfileIcon = () => {
   const dispatch = useDispatch()
 

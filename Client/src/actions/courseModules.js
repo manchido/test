@@ -10,3 +10,4 @@ export const UPDATE_MODULE_ITEM = 'UPDATE_MODULE_ITEM'
 export const DELETE_MODULE_ITEM = 'DELETE_MODULE_ITEM'
 
 export const LOADING_UPLOAD = 'LOADING_UPLOAD'
+//Coursemodules

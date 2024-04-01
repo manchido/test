@@ -3,7 +3,7 @@ import React from 'react'
 import { Spin } from 'antd'
 
 import styled from 'styled-components'
-
+//Spinner
 const Center = styled.div`
   display: flex;
   justify-content: center;

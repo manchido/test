@@ -217,3 +217,5 @@ const Registeration = () => {
   )
 }
 export default Registeration
+
+// registration

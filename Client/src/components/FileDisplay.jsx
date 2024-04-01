@@ -6,7 +6,7 @@ import {
   FileWordOutlined,
   FileOutlined
 } from '@ant-design/icons'
-
+//File display
 const FileDisplay = (props) => {
   const { files } = props
   return (

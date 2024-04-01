@@ -8,3 +8,4 @@ const PublicRoute = ({ ...routeProps }) => {
 }
 
 export default PublicRoute
+//pub route

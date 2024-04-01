@@ -8,7 +8,7 @@ import { Link, NavLink, useRouteMatch } from 'react-router-dom'
 import { DownOutlined, ArrowLeftOutlined } from '@ant-design/icons'
 import { useSelector } from 'react-redux'
 import useCoursePrivilege from '../../hooks/useCourseprivilege'
-
+//Course navs
 const CourseMenu = ({ url, privilege }) => {
   return (
     <Menu>

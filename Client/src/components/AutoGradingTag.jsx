@@ -8,3 +8,4 @@ const AutoGradingTag = ({ status }) => {
 }
 
 export default AutoGradingTag
+//Auto grading

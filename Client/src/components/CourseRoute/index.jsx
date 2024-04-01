@@ -3,6 +3,7 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import { Link, Route, useRouteMatch } from 'react-router-dom'
 
+//Course route
 const CourseRoute = ({ ...routeProps }) => {
   const courses = useSelector((state) => state?.courses?.data)
   const { params } = useRouteMatch('/app/course/:courseId')

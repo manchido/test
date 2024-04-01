@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux'
 import { useParams } from 'react-router'
-
+// course privilege
 const useCoursePrivilege = (id) => {
   const params = useParams()
   const courseId = id || params.courseId

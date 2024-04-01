@@ -7,3 +7,4 @@ export const DELETE_COURSE = 'DELETE_COURSE'
 export const LOAD_ENROLLMENT = 'LOAD_ENROLLMENT'
 export const ENROLL_COURSE = 'ENROLL_COURSE'
 export const UN_ENROLL_COURSE = 'UN_ENROLL_COURSE'
+//Course

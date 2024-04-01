@@ -11,3 +11,4 @@ const PlagarismTag = ({ status }) => {
 }
 
 export default PlagarismTag
+//Plagiarism

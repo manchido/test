@@ -6,3 +6,4 @@ export const INITIAL_DATA = 'INITIAL_DATA';
 export const DELETE_ARTICLE = 'DELETE_ARTICLE';
 export const GET_MY_ARTICLES = 'GET_MY_ARTICLES'
 export const GET_MY_BOOKMARKS = 'GET_MY_BOOKMARKS'
+//articles

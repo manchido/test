@@ -18,10 +18,6 @@ import NotFoundPage from '../pages/NotFoundPage'
 import Registeration from '../pages/Registeration'
 import ForgetPassword from '../pages/ForgetPassword'
 import Courses from '../views/courses'
-import Articles from '../views/articles'
-import MyArticle from '../views/articles/myArticles/myArticles'
-import MyBookMarks from '../views/articles/myBookMarks/myBookMarks'
-import ArticlePage from '../views/ArticlePage'
 import Profile from '../views/Profile'
 import Exams from '../views/exams'
 import { AssessmentCreation, Submissions } from '../views/exams'
@@ -48,7 +44,7 @@ import Achievements from '../views/achievements'
 import CourseRoute from '../components/CourseRoute'
 import Archives from '../views/archives'
 
-// public routes redirects to /app if authenticated
+// public routes redirects to /app if authenticated ,
 // private routes redirects to login if not authenticated
 const App = () => {
   return (
@@ -199,17 +195,14 @@ const AuthnticatedApp = () => {
               component={CourseSettings}
             />
 
-            <Route path="/app/articles/:id" component={ArticlePage} />
-            <Route path="/app/articles" component={Articles} />
-            <Route path="/app/myarticle" component={MyArticle} />
-            <Route path="/app/myBookMarks" component={MyBookMarks} />
+            
             <Route path="/app/profile" component={Profile} />
             <Route path="/app/archives" component={Archives} />
             <Route path="/app/acheivements" component={Achievements} />
             <Route path="/app/*" component={NotFoundView} />
           </Switch>
         </Content>
-        <S.Footer>Copyright ©2021 EduHub</S.Footer>
+        <S.Footer>Copyright ©2024 Chidozie Abengowe</S.Footer>
       </Layout>
     </Layout>
   )

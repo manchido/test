@@ -4,3 +4,5 @@ export const REMOVE_QUESTION = 'REMOVE_QUESTION'
 export const EDIT_QUESTION = 'EDIT_QUESTION'
 export const SUBMIT_ASSESSMENT = 'SUBMIT_ASSESSMENT'
 export const CLEAR = 'CLEAR'
+
+//Assessment constants
